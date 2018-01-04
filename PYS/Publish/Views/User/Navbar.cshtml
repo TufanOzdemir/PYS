@@ -1,0 +1,81 @@
+﻿@model ZabitaWebApplication.ViewModels.NavbarViewModel
+<div class="top_nav">
+    <div class="nav_menu">
+        <nav>
+            <div class="nav toggle">
+                <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="">
+                    <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                        <img src="~/Content/ProfilResimler/@Model.user.PicturePath" alt="">@Model.user.Username
+                        <span class="fa fa-angle-down"></span>
+                       
+                    </a>
+                    <ul class="dropdown-menu dropdown-usermenu pull-right">
+                        <li><a href="@Url.Action("Profil","User")"> Profilim</a></li>
+                        <li><a href="@Url.Action("Index","Message")">Mesajlar</a></li>
+                        <li><a href="@Url.Action("YetkileriniGoruntule","User")">Yetkilerim</a></li>
+                        <li><a href="@Url.Action("Logout","Home")"><i class="fa fa-sign-out pull-right"></i> Çıkış Yap</a></li>
+                    </ul>
+                </li>
+                <li onclick="callAjax()">
+                    <a href="javasctipt:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                        <span>Bildirimler</span>
+                        @if(Model.Notifications.Count == 0)
+                        {
+                            <span class="badge">0</span>
+                        }
+                        else
+                        {
+                            <span class="badge w3-red" id="notReaded">@Model.Notifications.Where(i => !i.isRead).Count()</span>
+                        }
+                    </a>
+                    <ul class="dropdown-menu pull-right">
+                        @foreach (var i in Model.Notifications.Where(i => !i.isRead))
+                        {
+                            <li class="okunmayan" style="padding:5px; margin:5px; background-color:aliceblue; border-bottom:solid">@i.Description</li>
+                        }
+                        @foreach (var i in Model.Notifications.Where(i => i.isRead))
+                        {
+                            <li style="padding:5px; margin:5px; background-color:white; border-bottom:solid">@i.Description</li>
+                        }
+                    </ul>
+                </li>
+                
+            </ul>
+        </nav>
+    </div>
+</div>
+<script>
+    @*function oku() {
+
+    }*@
+    function callAjax() {
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("BildirimOku", "User")',
+                content: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (data) {
+                    try{
+                        if (data == 1) {
+                            var cusid_ele = document.getElementsByClassName('okunmayan');
+                            /*for (var i = 0; i < cusid_ele.length; ++i) {
+                                var item = cusid_ele[i];
+                                item.style.backgroundColor = "white";
+                            }*/
+                            document.getElementById('notReaded').innerHTML = 0;
+                        } else {
+                            return;
+                        }
+                    }catch(e){
+                        return;
+                    }
+                },
+                error: function (xhr, textStatus, errorThrown) {
+                    alert('bir hata meydana geldi');
+                }
+            });
+    }
+</script>

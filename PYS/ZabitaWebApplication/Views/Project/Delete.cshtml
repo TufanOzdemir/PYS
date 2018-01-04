@@ -1,0 +1,18 @@
+﻿@model EBS.Data.Project
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+<div class="col-md-4 col-md-offset-4 panel">
+    <h2>Sil</h2>
+
+    <h3>Silmek istediğine emin misin?</h3>
+    <div>
+        <h4>@Model.Name adlı projeniz</h4>
+        <hr />
+        <div class="text-center">
+            @Html.ActionLink("Sil", "DeleteConfirmed", new { id = Model.ID },new { @class="w3-button w3-red" })
+        </div>
+    </div>
+</div>

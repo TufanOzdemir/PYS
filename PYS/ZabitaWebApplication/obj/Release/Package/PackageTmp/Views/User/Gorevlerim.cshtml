@@ -1,0 +1,69 @@
+﻿@model IEnumerable<ZabitaWebApplication.Models.Issue>
+
+@{
+    ViewBag.Title = "Gorevlerim";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+<div class="panel panel-danger col-md-8 col-md-offset-2" style="padding-top:10px;">
+
+    <div class="panel-heading"> Görevlerim</div>
+    <div class="">
+        <table class="table">
+            <tr>
+                <th>
+                    <strong>Görev Önemi</strong>
+                </th>
+                <th>
+                    <strong>Proje Adı</strong>
+                </th>
+                <th>
+                    <strong>Görev Statüsü</strong>
+                </th>
+                <th>
+                    <strong>Proje Lideri Adı</strong>
+                </th>
+                <th>
+                    <strong>Görev Adı</strong>
+                </th>
+                <th>
+                    <strong>Görev Tanımı</strong>
+                </th>
+                <th>
+                    <strong>Görev Oluşturma Tarihi</strong>
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        <span class="label label-@item.Priority.Symbol">@item.Priority.Name</span>
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Project.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Status.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.User.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CreatedDate)
+                    </td>
+                    <td>
+                        @Html.ActionLink("İncele", "GorevDetay", new { id = item.ID , projeID = item.ProjectID},new { @class= "w3-button w3-lime text-center !important",@style="width:100px;height:25px"  })
+                    </td>
+                </tr>
+            }
+
+        </table>
+    </div>
+</div>

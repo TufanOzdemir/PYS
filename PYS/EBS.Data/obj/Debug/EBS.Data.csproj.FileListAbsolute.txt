@@ -1,0 +1,10 @@
+D:\Program çalışmaları\Asp.net\pyslab\PYS\EBS.Data\bin\Debug\EBS.Data.dll
+D:\Program çalışmaları\Asp.net\pyslab\PYS\EBS.Data\bin\Debug\EBS.Data.pdb
+D:\Program çalışmaları\Asp.net\pyslab\PYS\EBS.Data\bin\Debug\EntityFramework.dll
+D:\Program çalışmaları\Asp.net\pyslab\PYS\EBS.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Program çalışmaları\Asp.net\pyslab\PYS\EBS.Data\bin\Debug\System.Data.SqlClient.dll
+D:\Program çalışmaları\Asp.net\pyslab\PYS\EBS.Data\bin\Debug\EntityFramework.xml
+D:\Program çalışmaları\Asp.net\pyslab\PYS\EBS.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Program çalışmaları\Asp.net\pyslab\PYS\EBS.Data\obj\Debug\EBS.Data.csproj.CoreCompileInputs.cache
+D:\Program çalışmaları\Asp.net\pyslab\PYS\EBS.Data\obj\Debug\EBS.Data.dll
+D:\Program çalışmaları\Asp.net\pyslab\PYS\EBS.Data\obj\Debug\EBS.Data.pdb

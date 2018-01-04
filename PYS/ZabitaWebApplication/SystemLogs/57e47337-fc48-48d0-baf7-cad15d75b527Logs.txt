@@ -1,0 +1,15 @@
+4.05.2017 22:38:38  -23, id numaralı kullanıcı,Takım Lideri, id numaralı adlı rolü ekledi.
+4.05.2017 22:38:59  -23, id numaralı kullanıcı, 16 --> 1032 kişiyi projeye ekledi.
+4.05.2017 22:39:41  -23, id numaralı kullanıcı,Ekranlar, id numaralı görevini oluşturdu. 
+4.05.2017 22:40:31  -23, id numaralı kullanıcı,1101, id numaralıissue ekledi
+4.05.2017 22:40:54  -23, id numaralı kullanıcı,1102, id numaralıissue ekledi
+4.05.2017 22:41:09  -23, id numaralı kullanıcı, 1031 --> 1102 görev atadı. 
+4.05.2017 22:41:24  -23, id numaralı kullanıcı,1101, id numaralı  görevi üstlendi. 
+4.05.2017 22:41:31  -23, id numaralı kullanıcı, 1101 --> 2görevin statü id numarasını değiştirdi 
+4.05.2017 22:41:52  -23, id numaralı kullanıcı,1102, id numaralıgöreve yorum yaptı. 
+4.05.2017 22:42:03  -23, id numaralı kullanıcı,, id numaralı çıkış yaptı.
+4.05.2017 22:42:10  -1031, id numaralı kullanıcı,, id numaralı giriş yaptı.
+4.05.2017 22:42:41  -1031, id numaralı kullanıcı,1031, id numaralı profilini güncelledi.
+4.05.2017 22:43:08  -1031, id numaralı kullanıcı, 1102 --> 2görevin statü id numarasını değiştirdi 
+4.05.2017 22:44:09  -1031, id numaralı kullanıcı,, id numaralı çıkış yaptı.
+4.05.2017 22:44:11  -23, id numaralı kullanıcı,, id numaralı giriş yaptı.

@@ -1,0 +1,29 @@
+﻿@model IEnumerable<ZabitaWebApplication.Models.Role>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+<div class="panel panel-info col-lg-8 col-lg-offset-2" style="padding-top:10px;">
+
+    <div class="panel-heading text-center"><h3>Mevcut Roller</h3> </div>
+    <table class="table text-center table-bordered table-responsive table-hover animated fadeInUp">
+        
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td >
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td >
+                    @Html.ActionLink("Güncelle", "Edit", new { id = item.ID }, new { @class = "w3-button w3-orange" }) <shadow></shadow>
+                    @Html.ActionLink("Detaylar", "Details", new { id = item.ID }, new { @class = "w3-button w3-green" }) <shadow></shadow>
+                    @Html.ActionLink("Sil", "Delete", new { id = item.ID }, new { @class = "w3-button w3-red" }) <shadow></shadow>
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>

@@ -1,0 +1,29 @@
+﻿@model IEnumerable<EBS.Data.Auth>
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+<div class="panel panel-info col-lg-8 col-lg-offset-2" style="padding-top:10px;">
+
+    <div class="panel-heading text-center"><h3>Rol Alt Yetkileri</h3> </div>
+
+    <table class="table table-bordered table-responsive table-hover animated fadeInUp">
+        <tr>
+            <th class="text-center">
+                <strong>Yetki Adı</strong>
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>

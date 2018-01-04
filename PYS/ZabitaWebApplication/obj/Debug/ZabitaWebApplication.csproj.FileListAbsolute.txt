@@ -1,0 +1,101 @@
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\ApplicationInsights.config
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\roslyn\csc.exe
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\roslyn\vbc.exe
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\roslyn\VBCSCompiler.exe
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\ZabitaWebApplication.dll.config
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\ZabitaWebApplication.dll
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\ZabitaWebApplication.pdb
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\EntityFramework.dll
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\EntityFramework.SqlServer.dll
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\Microsoft.AI.Web.dll
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\System.Web.Helpers.dll
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\System.Web.Mvc.dll
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\System.Web.Razor.dll
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\System.Web.Webpages.dll
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\System.Web.Webpages.Razor.dll
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\EntityFramework.xml
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\EntityFramework.SqlServer.xml
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\Microsoft.AI.Web.xml
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\System.Web.Razor.xml
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\System.Web.Webpages.xml
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\System.Web.Webpages.Razor.xml
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\System.Web.Helpers.xml
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\System.Web.Mvc.xml
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\obj\Debug\ZabitaWebApplication.dll
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\obj\Debug\ZabitaWebApplication.pdb
+C:\Users\Tufan\Desktop\bit\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\obj\Debug\ZabitaWebApplication.csprojResolveAssemblyReference.cache
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\ApplicationInsights.config
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\roslyn\csc.exe
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\roslyn\System.Collections.Immutable.dll
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\roslyn\System.Reflection.Metadata.dll
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\roslyn\vbc.exe
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\roslyn\VBCSCompiler.exe
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\roslyn\VBCSCompiler.exe.config
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\ZabitaWebApplication.dll.config
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\ZabitaWebApplication.dll
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\ZabitaWebApplication.pdb
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\EntityFramework.dll
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\EntityFramework.SqlServer.dll
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\Microsoft.AI.DependencyCollector.dll
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\Microsoft.AI.Web.dll
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\Microsoft.AI.WindowsServer.dll
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\Microsoft.ApplicationInsights.dll
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\Microsoft.Web.Infrastructure.dll
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\System.Web.Helpers.dll
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\System.Web.Mvc.dll
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\System.Web.Razor.dll
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\System.Web.Webpages.Deployment.dll
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\System.Web.Webpages.dll
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\System.Web.Webpages.Razor.dll
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\EntityFramework.xml
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\EntityFramework.SqlServer.xml
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\Microsoft.AI.DependencyCollector.xml
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\Microsoft.AI.Web.xml
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\Microsoft.AI.WindowsServer.xml
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\Microsoft.ApplicationInsights.xml
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\System.Web.Razor.xml
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\System.Web.Webpages.xml
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\System.Web.Webpages.Deployment.xml
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\System.Web.Webpages.Razor.xml
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\System.Web.Helpers.xml
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\bin\System.Web.Mvc.xml
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\obj\Debug\ZabitaWebApplication.csprojResolveAssemblyReference.cache
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\obj\Debug\ZabitaWebApplication.dll
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\obj\Debug\ZabitaWebApplication.pdb
+D:\Program çalışmaları\Asp.net\Proje Yönetim Sistemi\PYS\ZabitaWebApplication-branch\ZabitaWebApplication\obj\Debug\ZabitaWebApplication.csproj.CoreCompileInputs.cache

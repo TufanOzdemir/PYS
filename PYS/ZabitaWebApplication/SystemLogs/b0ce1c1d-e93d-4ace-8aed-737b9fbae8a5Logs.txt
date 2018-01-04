@@ -1,0 +1,2 @@
+18.05.2017 11:19:06  -23, id numaralı kullanıcı, 1101 --> 3görevin statü id numarasını değiştirdi 
+18.05.2017 11:19:31  -23, id numaralı kullanıcı,1103, id numaralıgöreve yorum yaptı. 

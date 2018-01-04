@@ -1,0 +1,59 @@
+﻿@model EBS.Data.User
+
+@{
+    ViewBag.Title = "Profil";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-0 col-sm-offset-0 col-md-offset-3 col-lg-offset-3 toppad">
+
+
+    <div class="panel panel-info">
+        <div class="panel-heading">
+            <h3 class="panel-title">Profilim</h3>
+        </div>
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-md-3 col-lg-3 " align="center"> <img alt="User Pic" src="~/Content/ProfilResimler/@Model.PicturePath" class="img-circle img-responsive"> </div>
+
+
+                <div class="col-md-9 col-lg-9">
+                    <table class="table table-user-information table-responsive table-hover">
+                        <tbody>
+                            <tr>
+                                <td>Ad:</td>
+                                <td>@Model.Name</td>
+                            </tr>
+                            <tr>
+                                <td>Soyad:</td>
+                                <td>@Model.Surname</td>
+                            </tr>
+                            <tr>
+                                <td>Kullanıcı Adı:</td>
+                                <td>@Model.Username</td>
+                            </tr>
+                            <tr>
+                                <td>Kullanıcı Rolü:</td>
+                                <td>@Model.Role.Name</td>
+                            </tr>
+
+                            <tr>
+                                <td>Email</td>
+                                <td><a href="mailto:@Model.Email">@Model.Email</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+        <div class="panel-footer text-center">
+            <a style="background-color:greenyellow">@Html.ActionLink("Güncelle", "ProfilGuncelle")</a>
+        </div>
+
+    </div>
+</div>
+
+
+

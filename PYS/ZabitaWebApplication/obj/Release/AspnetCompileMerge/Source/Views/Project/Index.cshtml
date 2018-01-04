@@ -1,0 +1,81 @@
+﻿@model IEnumerable<ZabitaWebApplication.Models.Project>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+@helper Truncate(string input, int length)
+{
+
+if (input.Length <= length)
+{
+
+        @input
+}
+else
+{
+        @input.Substring(0, length)<text>...</text>
+}
+}
+
+<!--w3-sand -->
+<div class="container ">
+    <div class="col-lg-6 col-lg-offset-3">
+        <h3 class="text-center"><strong>Mevcut Projeler</strong></h3>
+    </div>
+</div>
+
+<hr />
+<div class="panel panel-info col-lg-8 col-lg-offset-2" style="padding-top:10px;">
+
+    <div class="panel-heading text-center"><h3>Projelerim</h3> </div>
+
+
+    <table class="table table-bordered table-responsive table-hover animated fadeInUp">
+        <tr>
+            <th class="text-center">
+                <strong>Ekip Lideri</strong>
+            </th>
+            <th class="text-center">
+                <strong>Projenin Adı</strong>
+            </th>
+            <th class="text-center">
+                <strong>
+                    Seçenekler
+                </strong>
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <h2>@Html.DisplayFor(modelItem => item.User.Name)</h2>
+                </td>
+                <td>
+                    <h2>@Truncate(item.Name,30)</h2>
+                </td>
+                <td class="text-center">
+                    @Html.ActionLink("Proje Detayı", "Details", new { id = item.ID }, new { @class = "w3-button w3-green" })
+                </td>
+                <td>
+                    @if (item.User.Username == Session["username"].ToString())
+                    {
+
+                        @Html.ActionLink("Güncelle", "Update", new { id = item.ID }, new { @class = "w3-button w3-orange" }) <shadow></shadow>
+
+                        @Html.ActionLink("Sil", "Delete", new { id = item.ID }, new { @class = "w3-button w3-red" })<shadow></shadow>
+
+                        @Html.ActionLink("Eleman Ekle", "ProjectAddEmployee", new { id = item.ID }, new { @class = "w3-button w3-teal" })<shadow></shadow>
+
+                        @Html.ActionLink("Görev Ekle", "ProjectAddIssues", new { id = item.ID }, new { @class = "w3-button w3-blue" })<shadow></shadow>
+
+                    }
+                </td>
+            </tr>
+        }
+
+    </table>
+    <hr />
+</div>

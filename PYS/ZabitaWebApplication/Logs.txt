@@ -1,0 +1,74 @@
+4.05.2017 14:39:09  -23, id numaralı kullanıcı,, id numaralı giriş yaptı.
+4.05.2017 14:39:46  -23, id numaralı kullanıcı,76, id numaralı  görevi üstlendi. 
+4.05.2017 14:39:59  -23, id numaralı kullanıcı, 25 --> 31 görev atadı. 
+4.05.2017 14:54:42  -23, id numaralı kullanıcı,, id numaralı giriş yaptı.
+4.05.2017 14:55:05  -23, id numaralı kullanıcı, 30 --> 37 görev atadı. 
+4.05.2017 14:55:16  -23, id numaralı kullanıcı, 19 --> 3görevin statü id numarasını değiştirdi 
+4.05.2017 14:56:02  -23, id numaralı kullanıcı,28, id numaralıgöreve yorum yaptı. 
+4.05.2017 14:56:47  -23, id numaralı kullanıcı,proje yöneticileri, id numaralı adlı rolü ekledi.
+4.05.2017 15:18:17  -23, id numaralı kullanıcı,, id numaralı giriş yaptı.
+4.05.2017 15:20:45  -23, id numaralı kullanıcı, 32 --> 3görevin statü id numarasını değiştirdi 
+4.05.2017 15:21:35  -23, id numaralı kullanıcı,, id numaralı giriş yaptı.
+4.05.2017 15:22:21  -23, id numaralı kullanıcı,33, id numaralıissue ekledi
+4.05.2017 15:23:49  -23, id numaralı kullanıcı, 7 --> 1030 kişiyi projeye ekledi.
+4.05.2017 15:24:46  -23, id numaralı kullanıcı,23, id numaralı profilini güncelledi.
+4.05.2017 15:25:06  -23, id numaralı kullanıcı,23, id numaralı profilini güncelledi.
+4.05.2017 15:25:42  -23, id numaralı kullanıcı,22, id numaralı görevini iptal etti. 
+4.05.2017 15:25:49  -23, id numaralı kullanıcı,95, id numaralı görevini iptal etti. 
+4.05.2017 15:29:00  -1030, id numaralı kullanıcı,, id numaralı giriş yaptı.
+4.05.2017 15:29:25  -1030, id numaralı kullanıcı,1030, id numaralı profilini güncelledi.
+4.05.2017 15:31:16  -23, id numaralı kullanıcı,, id numaralı giriş yaptı.
+4.05.2017 15:36:21  -23, id numaralı kullanıcı,, id numaralı giriş yaptı.
+4.05.2017 15:38:03  -23, id numaralı kullanıcı,, id numaralı giriş yaptı.
+4.05.2017 15:39:54  -23, id numaralı kullanıcı,, id numaralı giriş yaptı.
+4.05.2017 15:40:52  -23, id numaralı kullanıcı,, id numaralı giriş yaptı.
+4.05.2017 15:41:59  -23, id numaralı kullanıcı,, id numaralı giriş yaptı.
+4.05.2017 15:44:12  -23, id numaralı kullanıcı,, id numaralı giriş yaptı.
+4.05.2017 16:09:54  -23, id numaralı kullanıcı,43, id numaralı görevi sildi. 
+4.05.2017 16:25:31  -23, id numaralı kullanıcı,28, id numaralı görevi sildi. 
+4.05.2017 16:25:54  -23, id numaralı kullanıcı,Silinecek Görev, id numaralı görevini oluşturdu. 
+4.05.2017 16:26:32  -23, id numaralı kullanıcı,1097, id numaralı görevi sildi. 
+4.05.2017 16:26:56  -23, id numaralı kullanıcı,41, id numaralıgöreve yorum yaptı. 
+4.05.2017 16:30:12  -23, id numaralı kullanıcı,, id numaralı giriş yaptı.
+4.05.2017 16:30:28  -23, id numaralı kullanıcı,96, id numaralıgöreve yorum yaptı. 
+4.05.2017 16:30:44  -23, id numaralı kullanıcı,96, id numaralı görevi sildi. 
+4.05.2017 16:30:50  -23, id numaralı kullanıcı,22, id numaralıgöreve yorum yaptı. 
+4.05.2017 16:30:52  -23, id numaralı kullanıcı,22, id numaralıgöreve yorum yaptı. 
+4.05.2017 16:30:53  -23, id numaralı kullanıcı,22, id numaralıgöreve yorum yaptı. 
+4.05.2017 16:30:59  -23, id numaralı kullanıcı,22, id numaralı görevi sildi. 
+4.05.2017 16:33:26  -23, id numaralı kullanıcı,, id numaralı giriş yaptı.
+4.05.2017 16:34:12  -23, id numaralı kullanıcı,, id numaralı giriş yaptı.
+4.05.2017 16:35:17  -23, id numaralı kullanıcı,17, id numaralı görevi sildi. 
+4.05.2017 17:02:20  -23, id numaralı kullanıcı,, id numaralı giriş yaptı.
+4.05.2017 17:02:52  -23, id numaralı kullanıcı,1096, id numaralıissue ekledi
+4.05.2017 17:02:58  -23, id numaralı kullanıcı,1096, id numaralı görevi sildi. 
+4.05.2017 17:03:16  -23, id numaralı kullanıcı,35, id numaralı  görevi üstlendi. 
+4.05.2017 17:03:28  -23, id numaralı kullanıcı, 35 --> 2görevin statü id numarasını değiştirdi 
+4.05.2017 17:03:31  -23, id numaralı kullanıcı, 35 --> 3görevin statü id numarasını değiştirdi 
+4.05.2017 17:03:46  -23, id numaralı kullanıcı,19, id numaralı görevi sildi. 
+4.05.2017 17:04:48  -23, id numaralı kullanıcı,, id numaralı giriş yaptı.
+4.05.2017 17:04:56  -23, id numaralı kullanıcı,1096, id numaralı görevi sildi. 
+4.05.2017 17:05:04  -23, id numaralı kullanıcı,1096, id numaralı görevi sildi. 
+4.05.2017 17:05:44  -23, id numaralı kullanıcı,1096, id numaralı görevi sildi. 
+4.05.2017 17:06:05  -23, id numaralı kullanıcı,44, id numaralıissue ekledi
+4.05.2017 17:06:28  -23, id numaralı kullanıcı,44, id numaralı görevi sildi. 
+4.05.2017 17:06:44  -23, id numaralı kullanıcı,51, id numaralıgöreve yorum yaptı. 
+4.05.2017 17:06:50  -23, id numaralı kullanıcı,51, id numaralıissue ekledi
+4.05.2017 17:06:54  -23, id numaralı kullanıcı,51, id numaralı görevi sildi. 
+4.05.2017 17:11:31  -23, id numaralı kullanıcı,, id numaralı giriş yaptı.
+4.05.2017 17:14:49  -23, id numaralı kullanıcı,, id numaralı giriş yaptı.
+4.05.2017 17:16:10  -23, id numaralı kullanıcı,, id numaralı giriş yaptı.
+4.05.2017 17:16:30  -23, id numaralı kullanıcı,14, id numaralı projeyi sildi.
+4.05.2017 19:24:35  -23, id numaralı kullanıcı,, id numaralı giriş yaptı.
+4.05.2017 19:29:10  -23, id numaralı kullanıcı,, id numaralı giriş yaptı.
+4.05.2017 19:30:06  -23, id numaralı kullanıcı,, id numaralı giriş yaptı.
+4.05.2017 19:32:06  -23, id numaralı kullanıcı,12, id numaralı projeyi sildi.
+4.05.2017 19:32:10  -23, id numaralı kullanıcı,8, id numaralı projeyi sildi.
+4.05.2017 19:32:13  -23, id numaralı kullanıcı,13, id numaralı projeyi sildi.
+4.05.2017 19:32:22  -23, id numaralı kullanıcı,15, id numaralı projeyi sildi.
+4.05.2017 19:32:31  -23, id numaralı kullanıcı,7, id numaralı projeyi sildi.
+4.05.2017 19:32:49  -23, id numaralı kullanıcı,29, id numaralı görevi sildi. 
+4.05.2017 20:06:01  -23, id numaralı kullanıcı,, id numaralı giriş yaptı.
+4.05.2017 20:09:51  -23, id numaralı kullanıcı,, id numaralı giriş yaptı.
+4.05.2017 20:10:47  -23, id numaralı kullanıcı,, id numaralı giriş yaptı.
+4.05.2017 20:12:14  -23, id numaralı kullanıcı,23, id numaralı profilini güncelledi.

@@ -1,0 +1,63 @@
+﻿@model IEnumerable<EBS.Data.User>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+<h2>Mesajlaştığım Kişiler</h2>
+
+<div class="col-sm-3">
+    <table class="table table-hover">
+        <tr>
+            <th>
+                Ad Soyad
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr class="tr" id="tr" onclick="callAjax(@item.ID)" style="cursor:pointer">
+                <td>
+                    @item.Name
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>
+
+<style>
+    tr:hover, tr.selected {
+        background-color: #ddd;
+    }
+</style>
+
+<script>
+    function callAjax(param) {
+        $.ajax({
+            type: "GET",
+            url: '@Url.Action("Details", "Message")',
+            content: "application/json; charset=utf-8",
+            dataType: "html",
+            data: { 'id': param },
+            success: function (d) {
+                if (d != null)
+                    $('#partialDivMessage').html(d);
+                else {
+                    alert('başarısız');
+                }
+            },
+            error: function (xhr, textStatus, errorThrown) {
+                alert('bir hata meydana geldi');
+            }
+        });
+    }
+
+</script>
+<div class="col-sm-9" id="partialDivMessage">
+    @{
+        Html.RenderAction("Details", "Message", new { id = ViewBag.mesajGetir });
+    }
+</div>

@@ -1,0 +1,3 @@
+4.05.2017 22:43:08  -1031, id numaralı kullanıcı, 1102 --> 2görevin statü id numarasını değiştirdi 
+4.05.2017 22:44:09  -1031, id numaralı kullanıcı,, id numaralı çıkış yaptı.
+4.05.2017 22:44:11  -23, id numaralı kullanıcı,, id numaralı giriş yaptı.

@@ -1,0 +1,3 @@
+8, id numaralı kullanıcı, 11 -> 5görevin statü id numarasını değiştirdi 1.05.2017 02:15:47
+8, id numaralı kullanıcı, 11 -> 6görevin statü id numarasını değiştirdi 1.05.2017 02:15:53
+8, id numaralı kullanıcı,11id numaralı görevi güncelledi 1.05.2017 02:16:03

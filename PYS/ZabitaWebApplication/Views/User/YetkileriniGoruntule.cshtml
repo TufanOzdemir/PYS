@@ -1,0 +1,25 @@
+﻿@model IEnumerable<EBS.Data.Auth>
+
+@{
+    ViewBag.Title = "YetkileriniGoruntule";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+<h2>Yetkilerim</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            <strong>Yetki Adı</strong>
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+    </tr>
+}
+
+</table>
