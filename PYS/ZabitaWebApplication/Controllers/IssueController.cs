@@ -1,15 +1,13 @@
-﻿using PYSInonu.Constants;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Data;
-using System.Data.Entity;
 using System.Linq;
-using System.Net;
-using System.Web;
 using System.Web.Mvc;
 using ZabitaWebApplication.Base_Controller;
 using EBS.Data;
 using ZabitaWebApplication.ViewModels;
+using EBS.Extensions;
+using EBS.Services;
 
 namespace ZabitaWebApplication.Controllers
 {
@@ -17,6 +15,7 @@ namespace ZabitaWebApplication.Controllers
     {
         private ModelContext db = new ModelContext();
         private UserSessionClass usc = new UserSessionClass();
+        private NotificationService nfc = new NotificationService();
 
         //Görevi detaylıca verir.
         public PartialViewResult Details(int? id)
@@ -280,7 +279,7 @@ namespace ZabitaWebApplication.Controllers
                 gorev.StatusID = statusID;
                 db.SaveChanges();
                 usc.ChangeActionLog(kullanici.ID.ToString(), gorev.ID.ToString(), gorev.StatusID.ToString(), "görevin statü id numarasını değiştirdi ");
-                usc.BildirimOlustur(gorev.Project.Name + " isimli projenizin " + gorev.Name + " isimli görevinin durumu " + gorev.Status.Name + " olarak değiştirildi!", gorev.Project.CreatedUserID);
+                nfc.Create(gorev.Project.Name + " isimli projenizin " + gorev.Name + " isimli görevinin durumu " + gorev.Status.Name + " olarak değiştirildi!", gorev.Project.CreatedUserID);
                 return RedirectToAction("Details", "Project", new { id = gorev.ProjectID, issueID = gorev.ID });
             }
             catch
@@ -375,7 +374,7 @@ namespace ZabitaWebApplication.Controllers
 
                 db.SaveChanges();
                 usc.CreateActionLog(Session["userId"].ToString(), gorev.ID.ToString(), "  görevi üstlendi. ");
-                usc.BildirimOlustur(kullanici.Username + " kullanıcısı " + gorev.Name + " isimli göreve talip oldu!", proje.CreatedUserID);
+                nfc.Create(kullanici.Username + " kullanıcısı " + gorev.Name + " isimli göreve talip oldu!", proje.CreatedUserID);
                 return RedirectToAction("Details", "Project", new { id = gorev.ProjectID, issueID = id });
             }
             catch
@@ -406,7 +405,7 @@ namespace ZabitaWebApplication.Controllers
                 gorev.ReporterID = null;
                 db.SaveChanges();
                 usc.CreateActionLog(Session["userId"].ToString(), gorev.ID.ToString(), " görevini iptal etti. ");
-                usc.BildirimOlustur(Session["username"].ToString() + " kullanıcısı " + gorev.Name + " isimli görevi iptal etti!", gorev.Project.CreatedUserID);
+                nfc.Create(Session["username"].ToString() + " kullanıcısı " + gorev.Name + " isimli görevi iptal etti!", gorev.Project.CreatedUserID);
                 return RedirectToAction("Details", "Project", new { id = gorev.ProjectID, issueID = id });
             }
             catch
@@ -463,7 +462,7 @@ namespace ZabitaWebApplication.Controllers
                 gorev.ReporterID = id;
                 db.SaveChanges();
                 usc.ChangeActionLog(Session["userId"].ToString(), id.ToString(), gorev.ID.ToString(), " görev atadı. ");
-                usc.BildirimOlustur(gorev.Name + " isimli görev size verildi!", id);
+                nfc.Create(gorev.Name + " isimli görev size verildi!", id);
                 return RedirectToAction("Details", "Project", new { id = gorev.ProjectID, issueID = issueId });
             }
             catch

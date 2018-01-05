@@ -1,13 +1,12 @@
-﻿using PYSInonu.Constants;
-using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Net;
-using System.Web;
 using System.Web.Mvc;
 using ZabitaWebApplication.Base_Controller;
 using EBS.Data;
 using ZabitaWebApplication.ViewModels;
+using EBS.Extensions;
+using EBS.Services;
 
 namespace ZabitaWebApplication.Controllers
 {
@@ -15,6 +14,7 @@ namespace ZabitaWebApplication.Controllers
     {
         private ModelContext db = new ModelContext();
         private UserSessionClass usc = new UserSessionClass();
+        private NotificationService nfc = new NotificationService();
 
         // Tüm rolleri listeler
         public ActionResult Index()

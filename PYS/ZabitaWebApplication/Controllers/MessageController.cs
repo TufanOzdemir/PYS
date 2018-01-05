@@ -1,15 +1,13 @@
-﻿using PYSInonu.Constants;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
 using System.Linq;
-using System.Net;
-using System.Web;
 using System.Web.Mvc;
 using ZabitaWebApplication.Base_Controller;
 using EBS.Data;
-using ZabitaWebApplication.ViewModels;
+using EBS.Extensions;
+using EBS.Services;
 
 namespace ZabitaWebApplication.Controllers
 {
@@ -17,6 +15,7 @@ namespace ZabitaWebApplication.Controllers
     {
         private ModelContext db = new ModelContext();
         private UserSessionClass usc = new UserSessionClass();
+        private NotificationService nfc = new NotificationService();
 
         // Mesajlaşılan kişileri listeler.
         public ActionResult Index(int mesajlasilanID = 0)
@@ -94,7 +93,7 @@ namespace ZabitaWebApplication.Controllers
                 db.Message.Add(mesaj);
                 db.SaveChanges();
 
-                usc.BildirimOlustur(kullanici.Username + " kişisinden size "+mesaj.MessageContent + " yazdı.",aid);
+                nfc.Create(kullanici.Username + " kişisinden size "+mesaj.MessageContent + " yazdı.",aid);
                 return RedirectToAction("Index", new { mesajlasilanID = idDonucu });
             }
             catch

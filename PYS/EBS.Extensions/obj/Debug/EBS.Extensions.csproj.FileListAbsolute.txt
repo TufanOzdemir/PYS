@@ -1,0 +1,10 @@
+D:\Program çalışmaları\Asp.net\pyslab\PYS\EBS.Extensions\obj\Debug\EBS.Extensions.csprojResolveAssemblyReference.cache
+D:\Program çalışmaları\Asp.net\pyslab\PYS\EBS.Extensions\obj\Debug\EBS.Extensions.csproj.CoreCompileInputs.cache
+D:\Program çalışmaları\Asp.net\pyslab\PYS\EBS.Extensions\bin\Debug\EBS.Extensions.dll
+D:\Program çalışmaları\Asp.net\pyslab\PYS\EBS.Extensions\bin\Debug\EBS.Extensions.pdb
+D:\Program çalışmaları\Asp.net\pyslab\PYS\EBS.Extensions\bin\Debug\EBS.Data.dll
+D:\Program çalışmaları\Asp.net\pyslab\PYS\EBS.Extensions\bin\Debug\EntityFramework.dll
+D:\Program çalışmaları\Asp.net\pyslab\PYS\EBS.Extensions\bin\Debug\EBS.Data.pdb
+D:\Program çalışmaları\Asp.net\pyslab\PYS\EBS.Extensions\bin\Debug\EntityFramework.xml
+D:\Program çalışmaları\Asp.net\pyslab\PYS\EBS.Extensions\obj\Debug\EBS.Extensions.dll
+D:\Program çalışmaları\Asp.net\pyslab\PYS\EBS.Extensions\obj\Debug\EBS.Extensions.pdb

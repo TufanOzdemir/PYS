@@ -1,13 +1,11 @@
-﻿using PYSInonu.Constants;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.IO;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 using ZabitaWebApplication.Base_Controller;
 using EBS.Data;
 using ZabitaWebApplication.ViewModels;
+using EBS.Extensions;
 
 namespace ZabitaWebApplication.Controllers
 {

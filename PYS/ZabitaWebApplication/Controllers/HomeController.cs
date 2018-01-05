@@ -1,11 +1,8 @@
 ﻿using EBS.Data;
-using PYSInonu.Constants;
-using System;
-using System.Collections.Generic;
+using EBS.Extensions;
 using System.Linq;
 using System.Net;
 using System.Net.Mail;
-using System.Web;
 using System.Web.Mvc;
 
 namespace ZabitaWebApplication.Controllers

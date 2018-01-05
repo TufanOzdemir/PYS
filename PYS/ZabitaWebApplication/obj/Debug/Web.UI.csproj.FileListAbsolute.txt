@@ -1,3 +1,5 @@
+D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\obj\Debug\Web.UI.csproj.CoreCompileInputs.cache
+D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\obj\Debug\Web.UI.csprojResolveAssemblyReference.cache
 D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\bin\ApplicationInsights.config
 D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\bin\roslyn\csc.exe
 D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -15,6 +17,8 @@ D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\bin\ZabitaWeb
 D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\bin\ZabitaWebApplication.dll
 D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\bin\ZabitaWebApplication.pdb
 D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\bin\EBS.Data.dll
+D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\bin\EBS.Extensions.dll
+D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\bin\EBS.Services.dll
 D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\bin\EntityFramework.dll
 D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\bin\EntityFramework.SqlServer.dll
 D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\bin\Microsoft.AI.Agent.Intercept.dll
@@ -33,6 +37,9 @@ D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\bin\System.We
 D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\bin\System.Web.Webpages.dll
 D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\bin\System.Web.Webpages.Razor.dll
 D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\bin\EBS.Data.pdb
+D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\bin\EBS.Extensions.pdb
+D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\bin\EBS.Services.pdb
+D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\bin\EBS.Services.dll.config
 D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\bin\EntityFramework.xml
 D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\bin\EntityFramework.SqlServer.xml
 D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\bin\Microsoft.AI.DependencyCollector.xml
@@ -47,7 +54,5 @@ D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\bin\System.We
 D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\bin\System.Web.Webpages.Razor.xml
 D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\bin\System.Web.Helpers.xml
 D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\bin\System.Web.Mvc.xml
-D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\obj\Debug\Web.UI.csprojResolveAssemblyReference.cache
-D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\obj\Debug\Web.UI.csproj.CoreCompileInputs.cache
 D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\obj\Debug\ZabitaWebApplication.dll
 D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\obj\Debug\ZabitaWebApplication.pdb

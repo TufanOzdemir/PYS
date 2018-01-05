@@ -1,11 +1,11 @@
-﻿using PYSInonu.Constants;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 using ZabitaWebApplication.Base_Controller;
 using EBS.Data;
+using EBS.Extensions;
+using EBS.Services;
 
 namespace ZabitaWebApplication.Controllers
 {
@@ -13,6 +13,7 @@ namespace ZabitaWebApplication.Controllers
     {
         ModelContext db = new ModelContext();
         private UserSessionClass usc = new UserSessionClass();
+        private NotificationService nfc = new NotificationService();
 
         //Projeleri listeler.
         public ActionResult Index()
@@ -159,7 +160,7 @@ namespace ZabitaWebApplication.Controllers
                 usc.CreateActionLog(Session["userId"].ToString(), id.ToString(), " projeyi güncelledi.");
                 foreach (var i in projem.User1)
                 {
-                    usc.BildirimOlustur("Bulunduğunuz " + ad + " isimli projeniz" + projem.Name + " olarak değiştirildi!", i.ID);
+                    nfc.Create("Bulunduğunuz " + ad + " isimli projeniz" + projem.Name + " olarak değiştirildi!", i.ID);
                 }
                 return RedirectToAction("Index");
             }
@@ -256,7 +257,7 @@ namespace ZabitaWebApplication.Controllers
             {
                 foreach (var i in proje.User1)
                 {
-                    usc.BildirimOlustur("Bulunduğunuz " + proje.Name + " isimli projeniz silinmiş olabilir!", i.ID);
+                    nfc.Create("Bulunduğunuz " + proje.Name + " isimli projeniz silinmiş olabilir!", i.ID);
                 }
 
                 proje.User1.Clear();
@@ -281,7 +282,7 @@ namespace ZabitaWebApplication.Controllers
             catch (Exception ex)
             {
                 int aid = Int32.Parse(Session["userId"].ToString());
-                usc.BildirimOlustur(proje.Name + " isimli proje silme işlemi başarısız oldu.", aid);
+                nfc.Create(proje.Name + " isimli proje silme işlemi başarısız oldu.", aid);
                 return RedirectToAction("ErrorPage", "Home", new { error = "Bir Hata Oldu!" });
             }
         }
