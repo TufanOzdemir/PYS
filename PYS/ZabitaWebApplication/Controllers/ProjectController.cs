@@ -5,7 +5,7 @@ using System.Web.Mvc;
 using ZabitaWebApplication.Base_Controller;
 using EBS.Data;
 using EBS.Extensions;
-using EBS.Services;
+using EBS.Services.Service;
 
 namespace ZabitaWebApplication.Controllers
 {

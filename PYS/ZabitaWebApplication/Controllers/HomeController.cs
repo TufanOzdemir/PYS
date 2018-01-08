@@ -88,8 +88,8 @@ namespace ZabitaWebApplication.Controllers
                     ePosta.Body = usc.Decrypt(kisi.Password);
                     SmtpClient smtp = new SmtpClient();
                     smtp.UseDefaultCredentials = false;
-                    smtp.Credentials = new NetworkCredential("amonisal4@hotmail.com", "tfngkhn44");
-                    smtp.Port = 587;
+                    smtp.Credentials = new NetworkCredential("tufan.ozdemir@ebirdsoftware.com", "Tufanmlt44");
+                    smtp.Port = 25;
                     smtp.Host = "smtp-mail.outlook.com";
                     smtp.EnableSsl = true;
 

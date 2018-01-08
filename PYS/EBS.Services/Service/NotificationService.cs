@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EBS.Services
+namespace EBS.Services.Service
 {
     public class NotificationService
     {

@@ -6,7 +6,7 @@ using ZabitaWebApplication.Base_Controller;
 using EBS.Data;
 using ZabitaWebApplication.ViewModels;
 using EBS.Extensions;
-using EBS.Services;
+using EBS.Services.Service;
 
 namespace ZabitaWebApplication.Controllers
 {
