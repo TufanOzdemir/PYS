@@ -7,35 +7,44 @@ using EBS.Data;
 using ZabitaWebApplication.ViewModels;
 using EBS.Extensions;
 using EBS.Services.Service;
+using EBS.Data.Result;
 
 namespace ZabitaWebApplication.Controllers
 {
     public class RoleController : BaseSessionController
     {
         private ModelContext db = new ModelContext();
-        private UserSessionClass usc = new UserSessionClass();
-        private NotificationService nfc = new NotificationService();
+        private UserSessionClass usc;
+        private NotificationService nfc;
+        private RoleService _roleService;
+
+        public RoleController()
+        {
+            usc = new UserSessionClass();
+            nfc = new NotificationService();
+            _roleService = new RoleService();
+        }
 
         // Tüm rolleri listeler
         public ActionResult Index()
         {
-            return View(db.Role.ToList());
+            Result<List<Role>> result = _roleService.GetAll();
+            if (!result.IsSuccess)
+            {
+                return RedirectToAction("Home", "ErrorPage", new { error = result.Message });
+            }
+            return View(result.Data);
         }
 
         // Rolün yetkilerini sıralar.
-        public ActionResult Details(int? id)
+        public ActionResult Details(int id)
         {
-            if (id == null)
+            var result = _roleService.GetByID(id);
+            if (!result.IsSuccess)
             {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+                return RedirectToAction("Home", "ErrorPage", new { error = result.Message });
             }
-            Role rol = db.Role.Find(id);
-            if (rol == null)
-            {
-                return HttpNotFound();
-            }
-
-            return View(rol.Auth.ToList());
+            return View(result.Data.Auth.ToList());
         }
 
         // Rol oluşturmaya yarar.
@@ -143,6 +152,7 @@ namespace ZabitaWebApplication.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Edit(int id, Rol_SubRol_ViewModel model)
         {
+            List<Auth> authList = new List<Auth>();
             try
             {
                 var rol = db.Role.Where(i => i.ID == id).SingleOrDefault();

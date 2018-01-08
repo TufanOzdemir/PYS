@@ -26,10 +26,10 @@ namespace EBS.Data.Result
             Message = "Başarılı";
         }
 
-        public Result(string Message)
+        public Result(bool IsSuccess,string Message)
         {
             this.Message = Message;
-            IsSuccess = false;
+            this.IsSuccess = IsSuccess;
             Data = default(T);
         }
     }
