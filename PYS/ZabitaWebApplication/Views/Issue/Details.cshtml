@@ -96,7 +96,7 @@
                 <div class="text-right">
                     @Html.ActionLink("Güncelle", "Edit", new { id = Model.issue.ID, projeId = Model.issue.ProjectID }, new { @class = "w3-button w3-orange" })
                     @Html.ActionLink("Sil", "Delete", new { id = Model.issue.ID }, new { @class = "w3-button w3-red" })
-                    <button class="btn btn-warning w3-button w3-black" type="button" id="altgorevekle">Alt Görev Ekle</button>
+                    <button class="w3-button w3-black" type="button" id="altgorevekle">Alt Görev</button>
                 </div>
             </p>
 
@@ -184,52 +184,17 @@
                 </div>
             </div>
         </div>
-        <div class="modal fade" tabindex="-1" role="dialog" id="altGorevEkleFormu">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title">Görev Ekle</h4>
-                    </div>
-                    <div class="modal-body">
-                        @{
-                            Html.RenderAction("CreateModal", "Issue", new { projeId = Model.issue.ProjectID, issueID = Model.issue.ID });
-                        }
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Kapat</button>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 </div>
 <script type="text/javascript">
     $('#kayit').click(function () {
         $("#kayitFormu").modal("show");
+
     });
     $('#altgorevekle').click(function () {
-        $("#altGorevEkleFormu").modal("show");
+        $("#ekleFormu").modal("show");
+        $("#modal_body").load('/Issue/CreateModal?projeId=@Model.issue.ProjectID&&issueId=@Model.issue.ID');
     });
-    function GorevAta() {
-        @*EBRD.PYS.Loader.show();
-        $.ajax({
-            type: 'GET',
-            url: "/Issue/GorevAta/" + @Model.issue.ID,
-            data: null,
-            cache: false,
-            success: function (result) {
-                $("#kayitFormu").modal("show");
-                EBRD.PYS.Loader.hide();
-            },
-            error: function (xhr, status, error) {
-                alert("Bir problem oluştu!");
-                EBRD.PYS.Loader.hide();
-            }
-        });*@
-        $("#kayitFormu").modal("show");
-
-    }
 </script>
 <style>
     .btn {

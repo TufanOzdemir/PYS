@@ -112,11 +112,11 @@ namespace ZabitaWebApplication.Controllers
         }
 
         [HttpPost]
-        public void CreateModal(int projeId, int issueId, Issue issue)
+        public ActionResult CreateModal(int projeId, int issueId, Issue issue)
         {
-            if (issueId != 0)
+            try
             {
-                try
+                if (issueId != 0)
                 {
                     issue.isSubTask = true;
                     issue.Issue2.Add(db.Issue.FirstOrDefault(i => i.ID == issueId));
@@ -128,14 +128,7 @@ namespace ZabitaWebApplication.Controllers
                     db.SaveChanges();
                     usc.CreateActionLog(Session["userId"].ToString(), issueId.ToString(), "issue ekledi");
                 }
-                catch
-                {
-                    return;
-                }
-            }
-            else
-            {
-                try
+                else
                 {
                     issue.isSubTask = false;
                     int userid = Int32.Parse(Session["userId"].ToString());
@@ -145,13 +138,13 @@ namespace ZabitaWebApplication.Controllers
                     db.Issue.Add(issue);
                     db.SaveChanges();
                     usc.CreateActionLog(Session["userId"].ToString(), issue.Name, " görevini oluşturdu. ");
-                    HttpContext.Response.Redirect("?id=" + projeId + "&issueID=" + issue.ID);
-                }
-                catch
-                {
-                    return;
                 }
             }
+            catch
+            {
+                return RedirectToAction("ErrorPage", "Home", new { error = "Bu işlem için gerekli yetkiniz bulunmamaktadır!" });
+            }
+            return RedirectToAction("Details", "Project", new { id = projeId, issueID = issue.ID });
         }
 
         //Görev güncellemek için kullanılır.
