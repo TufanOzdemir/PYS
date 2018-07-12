@@ -144,6 +144,7 @@
     <Content Include="Content\Css\bootstrap.min.css" />
     <Content Include="Content\Css\by.css" />
     <Content Include="Content\Css\Site.css" />
+    <Content Include="Content\Images\ebirdlogo.png" />
     <Content Include="Content\Images\iulogo.png" />
     <Content Include="Content\pnotify\pnotify.custom.min.css" />
     <Content Include="Content\pnotify\pnotify.custom.min.js" />
@@ -4354,6 +4355,7 @@
     <Content Include="Content\vendors\validator\validator.jquery.json" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Properties\PublishProfiles\Tufan.pubxml" />
+    <Content Include="Scripts\EBRD.PYS.Loader.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />

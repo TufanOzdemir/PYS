@@ -85,7 +85,7 @@ else
             </div>
             <div class="modal-body">
                 @{
-                    Html.RenderAction("CreateModal", "Issue", new { projeId = ViewBag.ProjeId });
+                    Html.RenderAction("CreateModal", "Issue", new { projeId = ViewBag.ProjeId, issueId = 0 });
                 }
             </div>
             <div class="modal-footer">

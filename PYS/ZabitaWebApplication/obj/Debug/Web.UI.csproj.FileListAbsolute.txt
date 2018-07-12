@@ -1,5 +1,4 @@
 D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\obj\Debug\Web.UI.csproj.CoreCompileInputs.cache
-D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\obj\Debug\Web.UI.csprojResolveAssemblyReference.cache
 D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\bin\ApplicationInsights.config
 D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\bin\roslyn\csc.exe
 D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -56,3 +55,5 @@ D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\bin\System.We
 D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\bin\System.Web.Mvc.xml
 D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\obj\Debug\ZabitaWebApplication.dll
 D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\obj\Debug\ZabitaWebApplication.pdb
+D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\obj\Debug\Web.UI.csproj.CopyComplete
+D:\Program çalışmaları\Asp.net\pyslab\PYS\ZabitaWebApplication\obj\Debug\Web.UI.csprojAssemblyReference.cache

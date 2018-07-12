@@ -96,7 +96,7 @@
                 <div class="text-right">
                     @Html.ActionLink("Güncelle", "Edit", new { id = Model.issue.ID, projeId = Model.issue.ProjectID }, new { @class = "w3-button w3-orange" })
                     @Html.ActionLink("Sil", "Delete", new { id = Model.issue.ID }, new { @class = "w3-button w3-red" })
-                    @Html.ActionLink("Alt Görev", "Create", new { issueId = Model.issue.ID, projeId = Model.issue.ProjectID }, new { @class = "w3-btn w3-black" })
+                    <button class="btn btn-warning w3-button w3-black" type="button" id="altgorevekle">Alt Görev Ekle</button>
                 </div>
             </p>
 
@@ -126,7 +126,7 @@
         <div class="panel panel-info col-lg-12 col-md-6 col-xs-4" style="padding-top:10px;">
             <div class="col-lg-12 col-md-10 ">
                 @using (Html.BeginForm("YorumYap", "Issue", FormMethod.Post))
-            {
+                {
                     <h4>Yorumlar</h4>
                     <div>
                         <textarea class="form-control" rows="3" name="yorumyap"></textarea>
@@ -138,7 +138,7 @@
                 <hr />
                 <div class="container col-lg-12 col-md-10 ">
                     @foreach (var i in Model.issue.Comment.Take(10).Reverse())
-            {
+                    {
                         <div class="card">
                             <div class="card-header">
                                 <div class="w3-sand"><h4>@i.User.Name <span class="glyphicon glyphicon-arrow-down"></span></h4></div>
@@ -166,14 +166,14 @@
                 </div>
             </div>
         </div>
-        @*<div class="modal fade" tabindex="-1" role="dialog" id="kayitFormu">
+        <div class="modal fade" tabindex="-1" role="dialog" id="kayitFormu">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                         <h4 class="modal-title">Görev Atama Listesi</h4>
                     </div>
-                    <div class="modal-body">
+                    <div id="deneme" class="modal-body">
                         @{
                             Html.RenderAction("GorevAta", "Issue", new { id = Model.issue.ID });
                         }
@@ -183,15 +183,52 @@
                     </div>
                 </div>
             </div>
-        </div>*@
+        </div>
+        <div class="modal fade" tabindex="-1" role="dialog" id="altGorevEkleFormu">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Görev Ekle</h4>
+                    </div>
+                    <div class="modal-body">
+                        @{
+                            Html.RenderAction("CreateModal", "Issue", new { projeId = Model.issue.ProjectID, issueID = Model.issue.ID });
+                        }
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Kapat</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 <script type="text/javascript">
     $('#kayit').click(function () {
         $("#kayitFormu").modal("show");
     });
+    $('#altgorevekle').click(function () {
+        $("#altGorevEkleFormu").modal("show");
+    });
     function GorevAta() {
+        @*EBRD.PYS.Loader.show();
+        $.ajax({
+            type: 'GET',
+            url: "/Issue/GorevAta/" + @Model.issue.ID,
+            data: null,
+            cache: false,
+            success: function (result) {
+                $("#kayitFormu").modal("show");
+                EBRD.PYS.Loader.hide();
+            },
+            error: function (xhr, status, error) {
+                alert("Bir problem oluştu!");
+                EBRD.PYS.Loader.hide();
+            }
+        });*@
         $("#kayitFormu").modal("show");
+
     }
 </script>
 <style>

@@ -32,30 +32,20 @@
             
             <div class="login_wrapper">
                 
-                <div class="animate form login_form">
+                <div class="animate login_form">
                     
                     <section class="login_content">
-                       
+                        <div class="col-lg-12" style="margin-bottom:15px">
+                            <img src="~/Content/Images/ebirdlogo.png" width="800" height="800" class="img-responsive" />
+                        </div>
                         <form>
-                            <div class="col-lg-12">
-                                <img src="~/Content/Images/iulogo.png" width="400" height="400" class="img-responsive" />
+                            <div class="form-group">
+                                <input id="usr" type="text" class="form-control" placeholder="*Kullanıcı Adı" required name="Username" />
                             </div>
-                            <h1 class="text-capitalize">İnönü Üniversitesi</h1>
-                            <h1 class="text-center"> Proje Yönetim Sistemi</h1>
-                            <div class="clearfix"></div>
-                            <div>
-                                <input id="usr" type="text" class="form-control" placeholder="*Kullanıcı Adı" required="true" name="Username" />
+                            <div class="form-group">
+                                <input id="pass" type="password" class="form-control" placeholder="*Parola" required name="Password" />
                             </div>
-                            <div class="clearfix"></div>
-                            <br />
-                         
-                            <div>
-                                <input id="pass" type="password" class="form-control" placeholder="*Parola" required="true" name="Password" />
-                            </div>
-                            <div class="clearfix"></div>
-                            <br />
-                            <br />
-                            <div>
+                            <div class="form-group">
                                 <input type="submit" class="btn btn-warning submit" value="Giriş Yap" />
                                 @Html.ActionLink("Parolamı Unuttum", "ForgotPassword", "Home")
                             </div>
@@ -65,8 +55,7 @@
                                 <div class="clearfix"></div>
                                 <br />
                                 <div>
-                                    <h1><i class="fa fa-paw"></i> Umay</h1>
-                                    <p>©2017 Umay | Tüm Hakları Saklıdır.</p>
+                                    <p>©2016 Ebird | Tüm Hakları Saklıdır.</p>
                                 </div>
                             </div>
                         </form>

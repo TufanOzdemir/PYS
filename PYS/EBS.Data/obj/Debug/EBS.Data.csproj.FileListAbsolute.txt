@@ -8,3 +8,5 @@ D:\Program çalışmaları\Asp.net\pyslab\PYS\EBS.Data\bin\Debug\EntityFramework
 D:\Program çalışmaları\Asp.net\pyslab\PYS\EBS.Data\obj\Debug\EBS.Data.csproj.CoreCompileInputs.cache
 D:\Program çalışmaları\Asp.net\pyslab\PYS\EBS.Data\obj\Debug\EBS.Data.dll
 D:\Program çalışmaları\Asp.net\pyslab\PYS\EBS.Data\obj\Debug\EBS.Data.pdb
+D:\Program çalışmaları\Asp.net\pyslab\PYS\EBS.Data\obj\Debug\EBS.Data.csproj.CopyComplete
+D:\Program çalışmaları\Asp.net\pyslab\PYS\EBS.Data\obj\Debug\EBS.Data.csprojAssemblyReference.cache

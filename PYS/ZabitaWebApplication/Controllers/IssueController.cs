@@ -48,7 +48,7 @@ namespace ZabitaWebApplication.Controllers
                         return RedirectToAction("ErrorPage", "Home", new { error = "Bu işlem için gerekli yetkiniz bulunmamaktadır!" });
                     }
                     ViewBag.PriorityID = new SelectList(db.Priority, "ID", "Name");
-                    return View("GorevOlustur");
+                    return PartialView("CreateModal");
                 }
                 return RedirectToAction("ErrorPage", "Home", new { error = "Bu işlem için gerekli yetkiniz bulunmamaktadır!" });
             }
@@ -82,7 +82,7 @@ namespace ZabitaWebApplication.Controllers
         }
 
         //Ana görev oluştururken kullanılır.
-        public PartialViewResult CreateModal(int projeId)
+        public PartialViewResult CreateModal(int projeId, int issueId = 0)
         {
             try
             {
@@ -112,23 +112,45 @@ namespace ZabitaWebApplication.Controllers
         }
 
         [HttpPost]
-        public void CreateModal(int projeId, Issue issue)
+        public void CreateModal(int projeId, int issueId, Issue issue)
         {
-            try
+            if (issueId != 0)
             {
-                issue.isSubTask = false;
-                int userid = Int32.Parse(Session["userId"].ToString());
-                issue.ProjectID = projeId;
-                issue.CreatedDate = DateTime.Now;
-                issue.StatusID = db.Status.First().ID;
-                db.Issue.Add(issue);
-                db.SaveChanges();
-                usc.CreateActionLog(Session["userId"].ToString(), issue.Name, " görevini oluşturdu. ");
-                HttpContext.Response.Redirect("?id=" + projeId + "&issueID=" + issue.ID);
+                try
+                {
+                    issue.isSubTask = true;
+                    issue.Issue2.Add(db.Issue.FirstOrDefault(i => i.ID == issueId));
+                    int userid = Int32.Parse(Session["userId"].ToString());
+                    issue.ProjectID = projeId;
+                    issue.CreatedDate = DateTime.Now;
+                    issue.StatusID = db.Status.First().ID;
+                    db.Issue.Add(issue);
+                    db.SaveChanges();
+                    usc.CreateActionLog(Session["userId"].ToString(), issueId.ToString(), "issue ekledi");
+                }
+                catch
+                {
+                    return;
+                }
             }
-            catch
+            else
             {
-                return;
+                try
+                {
+                    issue.isSubTask = false;
+                    int userid = Int32.Parse(Session["userId"].ToString());
+                    issue.ProjectID = projeId;
+                    issue.CreatedDate = DateTime.Now;
+                    issue.StatusID = db.Status.First().ID;
+                    db.Issue.Add(issue);
+                    db.SaveChanges();
+                    usc.CreateActionLog(Session["userId"].ToString(), issue.Name, " görevini oluşturdu. ");
+                    HttpContext.Response.Redirect("?id=" + projeId + "&issueID=" + issue.ID);
+                }
+                catch
+                {
+                    return;
+                }
             }
         }
 
@@ -180,7 +202,7 @@ namespace ZabitaWebApplication.Controllers
                 gorev.StatusID = model.StatusID;
                 db.SaveChanges();
                 usc.UpdateActionLog(Session["userId"].ToString(), gorev.ID.ToString(), " görevi güncelledi ");
-                return RedirectToAction("Details","Product",new { id = projeId , issueID = id });
+                return RedirectToAction("Details", "Product", new { id = projeId, issueID = id });
             }
             catch
             {
@@ -445,7 +467,7 @@ namespace ZabitaWebApplication.Controllers
                 }
 
                 ViewBag.gorevID = gorev.ID;
-                return PartialView(proje.User);
+                return PartialView(proje.User1);
             }
             catch
             {

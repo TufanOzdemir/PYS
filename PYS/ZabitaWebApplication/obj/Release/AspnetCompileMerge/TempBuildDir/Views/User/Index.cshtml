@@ -1,4 +1,4 @@
-﻿@model ZabitaWebApplication.Models.User
+﻿@model EBS.Data.User
 
 @{
     ViewBag.Title = "Index";
@@ -10,17 +10,17 @@
         <div class="tile-stats">
             <div class="icon"><i class="fa fa-pencil-square-o"></i></div>
             <div class="count">
-                @Model.Issues.Count
+                @Model.Issue.Count
             </div>
             <h3>Görevler</h3>
-            <p>@Model.Issues.Count adet göreviniz bulunmaktadır!</p>
+            <p>@Model.Issue.Count adet göreviniz bulunmaktadır!</p>
         </div>
     </div>
     <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
         <div class="tile-stats">
             <div class="icon"><i class="fa fa-list-alt"></i></div>
             <div class="count">
-                @Model.Issues.Where(i => i.PriorityID == 3).Count().ToString()
+                @Model.Issue.Where(i => i.PriorityID == 3).Count().ToString()
             </div>
             <h3>Kritik Görevler</h3>
             <p>Görevleriniz bulunmaktadır.</p>
@@ -30,7 +30,7 @@
         <div class="tile-stats">
             <div class="icon"><i class="fa fa-wpforms"></i></div>
             <div class="count">
-                @Model.Messages.Count().ToString()
+                @Model.Message.Count().ToString()
             </div>
             <h3>Adet Mesaj</h3>
             <p>Mesajlarınız.</p>
@@ -40,7 +40,7 @@
         <div class="tile-stats">
             <div class="icon"><i class="fa fa-bell-o"></i></div>
             <div class="count">
-                @Model.Comments.Count().ToString()
+                @Model.Comment.Count().ToString()
             </div>
             <h3>Adet Yorumunuz var</h3>
             <p>Yorumlarınız.</p>

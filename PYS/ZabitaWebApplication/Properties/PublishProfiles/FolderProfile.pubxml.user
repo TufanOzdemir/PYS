@@ -16,10 +16,31 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/01/2017 17:57:55</publishTime>
     </File>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>01/03/2018 22:03:07</publishTime>
+      <publishTime>04/13/2018 15:46:18</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>01/03/2018 22:03:07</publishTime>
+      <publishTime>04/13/2018 15:46:18</publishTime>
+    </File>
+    <File Include="bin/EBS.Data.dll">
+      <publishTime>04/13/2018 15:45:54</publishTime>
+    </File>
+    <File Include="bin/EBS.Data.pdb">
+      <publishTime>04/13/2018 15:45:54</publishTime>
+    </File>
+    <File Include="bin/EBS.Extensions.dll">
+      <publishTime>04/13/2018 15:45:54</publishTime>
+    </File>
+    <File Include="bin/EBS.Extensions.pdb">
+      <publishTime>04/13/2018 15:45:54</publishTime>
+    </File>
+    <File Include="bin/EBS.Services.dll">
+      <publishTime>04/13/2018 15:45:54</publishTime>
+    </File>
+    <File Include="bin/EBS.Services.dll.config">
+      <publishTime>01/05/2018 10:55:13</publishTime>
+    </File>
+    <File Include="bin/EBS.Services.pdb">
+      <publishTime>04/13/2018 15:45:54</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>05/01/2017 17:57:49</publishTime>
@@ -109,10 +130,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/01/2017 17:57:50</publishTime>
     </File>
     <File Include="bin/ZabitaWebApplication.dll">
-      <publishTime>01/03/2018 16:25:40</publishTime>
+      <publishTime>04/13/2018 15:45:58</publishTime>
     </File>
     <File Include="bin/ZabitaWebApplication.pdb">
-      <publishTime>01/03/2018 16:25:40</publishTime>
+      <publishTime>04/13/2018 15:45:58</publishTime>
     </File>
     <File Include="Constants/Yardımcı.txt">
       <publishTime>05/01/2017 17:57:56</publishTime>
@@ -12778,7 +12799,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/03/2018 16:17:53</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>01/03/2018 22:03:04</publishTime>
+      <publishTime>04/13/2018 15:46:17</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
       <publishTime>05/01/2017 18:01:08</publishTime>
@@ -12811,46 +12832,46 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/01/2017 18:01:09</publishTime>
     </File>
     <File Include="Views/Issue/CreateModal.cshtml">
-      <publishTime>05/03/2017 18:02:04</publishTime>
+      <publishTime>01/04/2018 22:21:53</publishTime>
     </File>
     <File Include="Views/Issue/Delete.cshtml">
-      <publishTime>05/04/2017 20:05:51</publishTime>
+      <publishTime>01/04/2018 22:21:22</publishTime>
     </File>
     <File Include="Views/Issue/Details.cshtml">
-      <publishTime>05/04/2017 15:40:27</publishTime>
+      <publishTime>01/04/2018 22:41:22</publishTime>
     </File>
     <File Include="Views/Issue/Edit.cshtml">
-      <publishTime>05/04/2017 20:24:42</publishTime>
+      <publishTime>01/04/2018 22:26:14</publishTime>
     </File>
     <File Include="Views/Issue/GorevAta.cshtml">
-      <publishTime>05/01/2017 18:01:09</publishTime>
+      <publishTime>01/04/2018 22:26:57</publishTime>
     </File>
     <File Include="Views/Issue/GorevOlustur.cshtml">
-      <publishTime>05/01/2017 22:55:08</publishTime>
+      <publishTime>01/04/2018 22:27:08</publishTime>
     </File>
     <File Include="Views/Issue/KisiYorumList.cshtml">
-      <publishTime>05/01/2017 18:01:09</publishTime>
+      <publishTime>01/04/2018 22:27:21</publishTime>
     </File>
     <File Include="Views/Issue/PartialDetails.cshtml">
-      <publishTime>05/01/2017 18:01:09</publishTime>
+      <publishTime>01/04/2018 22:27:27</publishTime>
     </File>
     <File Include="Views/Issue/YorumGuncelle.cshtml">
-      <publishTime>05/01/2017 18:01:09</publishTime>
+      <publishTime>01/04/2018 22:27:33</publishTime>
     </File>
     <File Include="Views/Message/Create.cshtml">
-      <publishTime>05/01/2017 18:01:09</publishTime>
+      <publishTime>01/04/2018 22:31:08</publishTime>
     </File>
     <File Include="Views/Message/Delete.cshtml">
-      <publishTime>05/01/2017 18:01:09</publishTime>
+      <publishTime>01/04/2018 22:27:56</publishTime>
     </File>
     <File Include="Views/Message/Details.cshtml">
-      <publishTime>05/01/2017 18:01:09</publishTime>
+      <publishTime>01/04/2018 22:28:01</publishTime>
     </File>
     <File Include="Views/Message/Edit.cshtml">
-      <publishTime>05/01/2017 18:01:09</publishTime>
+      <publishTime>01/04/2018 22:28:04</publishTime>
     </File>
     <File Include="Views/Message/Index.cshtml">
-      <publishTime>05/01/2017 18:01:10</publishTime>
+      <publishTime>01/04/2018 22:28:13</publishTime>
     </File>
     <File Include="Views/PartialViews/Navbar.cshtml">
       <publishTime>05/01/2017 18:01:10</publishTime>
@@ -12859,37 +12880,37 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/08/2017 15:25:15</publishTime>
     </File>
     <File Include="Views/Project/Create.cshtml">
-      <publishTime>05/01/2017 18:01:10</publishTime>
+      <publishTime>01/04/2018 22:28:36</publishTime>
     </File>
     <File Include="Views/Project/Delete.cshtml">
-      <publishTime>05/04/2017 20:03:51</publishTime>
+      <publishTime>01/04/2018 22:28:43</publishTime>
     </File>
     <File Include="Views/Project/Details.cshtml">
-      <publishTime>05/04/2017 15:37:49</publishTime>
+      <publishTime>01/04/2018 22:28:50</publishTime>
     </File>
     <File Include="Views/Project/Index.cshtml">
-      <publishTime>05/01/2017 22:23:37</publishTime>
+      <publishTime>01/04/2018 22:28:55</publishTime>
     </File>
     <File Include="Views/Project/ProjectAddEmployee.cshtml">
-      <publishTime>05/01/2017 18:01:10</publishTime>
+      <publishTime>01/04/2018 22:29:00</publishTime>
     </File>
     <File Include="Views/Project/Update.cshtml">
-      <publishTime>05/01/2017 18:01:10</publishTime>
+      <publishTime>01/04/2018 22:29:03</publishTime>
     </File>
     <File Include="Views/Role/Create.cshtml">
       <publishTime>05/01/2017 18:01:10</publishTime>
     </File>
     <File Include="Views/Role/Delete.cshtml">
-      <publishTime>05/01/2017 18:01:10</publishTime>
+      <publishTime>01/04/2018 22:29:17</publishTime>
     </File>
     <File Include="Views/Role/Details.cshtml">
-      <publishTime>05/01/2017 22:55:08</publishTime>
+      <publishTime>01/04/2018 22:29:28</publishTime>
     </File>
     <File Include="Views/Role/Edit.cshtml">
       <publishTime>05/03/2017 17:43:57</publishTime>
     </File>
     <File Include="Views/Role/Index.cshtml">
-      <publishTime>05/01/2017 22:55:28</publishTime>
+      <publishTime>01/04/2018 22:29:37</publishTime>
     </File>
     <File Include="Views/Shared/BosView.cshtml">
       <publishTime>05/01/2017 18:01:10</publishTime>
@@ -12898,28 +12919,28 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/01/2017 18:01:10</publishTime>
     </File>
     <File Include="Views/User/Gorevlerim.cshtml">
-      <publishTime>05/01/2017 22:55:08</publishTime>
+      <publishTime>01/04/2018 22:30:12</publishTime>
     </File>
     <File Include="Views/User/Index.cshtml">
-      <publishTime>05/04/2017 20:07:29</publishTime>
+      <publishTime>01/04/2018 22:32:38</publishTime>
     </File>
     <File Include="Views/User/KullaniciDetay.cshtml">
-      <publishTime>05/01/2017 18:01:10</publishTime>
+      <publishTime>01/04/2018 22:30:35</publishTime>
     </File>
     <File Include="Views/User/Navbar.cshtml">
       <publishTime>05/08/2017 15:25:39</publishTime>
     </File>
     <File Include="Views/User/Profil.cshtml">
-      <publishTime>05/04/2017 20:11:17</publishTime>
+      <publishTime>01/04/2018 22:30:41</publishTime>
     </File>
     <File Include="Views/User/ProfilGuncelle.cshtml">
-      <publishTime>05/04/2017 20:09:41</publishTime>
+      <publishTime>01/04/2018 22:30:45</publishTime>
     </File>
     <File Include="Views/User/SignUp.cshtml">
-      <publishTime>05/01/2017 18:01:10</publishTime>
+      <publishTime>01/04/2018 22:30:52</publishTime>
     </File>
     <File Include="Views/User/YetkileriniGoruntule.cshtml">
-      <publishTime>05/01/2017 18:01:10</publishTime>
+      <publishTime>01/04/2018 22:31:00</publishTime>
     </File>
     <File Include="Views/web.config">
       <publishTime>05/01/2017 18:01:09</publishTime>
@@ -12928,7 +12949,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/01/2017 18:01:09</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>01/03/2018 22:02:31</publishTime>
+      <publishTime>04/13/2018 15:46:02</publishTime>
     </File>
   </ItemGroup>
 </Project>
